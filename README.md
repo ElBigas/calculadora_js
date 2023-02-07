@@ -54,5 +54,3 @@ else if (valor === '=') {
         resultado.value = eval(expressao);
 }
 ```
-
-<hr>
