@@ -45,6 +45,8 @@ botoes.forEach(elemento => {
 });
 ```
 
+<hr >
+
 Depois disso, também tive problema com a multiplicação, pois a minha função buscava pelo "textContent" que havia no botão, e como no caso do multiplicar está "x", acabava num erro. Eu poderia mudar o texto no HTML, mas não ficaria muito intuítivo para algum usuário mais leigo, então pensei em substituir o "x" por "*" e ficou assim:
 
 ```javascript
